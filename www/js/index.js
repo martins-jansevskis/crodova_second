@@ -20,16 +20,16 @@ var app = {
     // Application Constructor
     initialize: function() {
         document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
-        // document.addEventListener('pause', this.onPause.bind(this), false);
-        // document.addEventListener("resume", this.onResume.bind(this), false);
-        // document.addEventListener("backbutton", this.onBackKeyDown.bind(this), false);
-        // document.addEventListener("menubutton", this.onMenuKeyDown.bind(this), false);
-        // document.addEventListener("searchbutton", this.onSearchKeyDown.bind(this), false);
-        // document.addEventListener("startcallbutton", this.onStartCallKeyDown.bind(this), false);
-        // document.addEventListener("endcallbutton", this.onEndCallKeyDown.bind(this), false);
-        // document.addEventListener("volumedownbutton", this.onVolumeDownKeyDown.bind(this), false);
-        // document.addEventListener("volumeupbutton", this.onVolumeUpKeyDown.bind(this), false);
-        // document.addEventListener("activated", this.activated.bind(this), false);
+        document.addEventListener('pause', this.onPause.bind(this), false);
+        document.addEventListener("resume", this.onResume.bind(this), false);
+        document.addEventListener("backbutton", this.onBackKeyDown.bind(this), false);
+        document.addEventListener("menubutton", this.onMenuKeyDown.bind(this), false);
+        document.addEventListener("searchbutton", this.onSearchKeyDown.bind(this), false);
+        document.addEventListener("startcallbutton", this.onStartCallKeyDown.bind(this), false);
+        document.addEventListener("endcallbutton", this.onEndCallKeyDown.bind(this), false);
+        document.addEventListener("volumedownbutton", this.onVolumeDownKeyDown.bind(this), false);
+        document.addEventListener("volumeupbutton", this.onVolumeUpKeyDown.bind(this), false);
+        document.addEventListener("activated", this.activated.bind(this), false);
     },
 
     // Fired when the cordova is fully loaded
@@ -129,7 +129,7 @@ var app = {
         function getWeather(latitude, longitude) {
 
             // Get a free key at http://openweathermap.org/. Replace the "Your_Key_Here" string with that key.
-            var OpenWeatherAppKey = "256a24b5a94ea3ab7e07da06a44ba669";
+            var OpenWeatherAppKey = "";
 
             var queryString =
               'http://api.openweathermap.org/data/2.5/weather?lat='
