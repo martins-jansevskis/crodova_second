@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "MartinsJansevskis",
+  "short_name": "MartinsJansevskis",
+  "version": "com.martins.jansevskis.hello",
+  "description": "A sample Phonegap project used to create cordova app",
+  "author": "Apache Cordova Team",
+  "icons": [],
+  "start_url": "index.html"
+}
